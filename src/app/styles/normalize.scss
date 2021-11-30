@@ -1,0 +1,27 @@
+html {
+	scroll-behavior: smooth;
+}
+
+.status {
+	position: relative;
+}
+
+.toasts {
+	z-index: 1051;
+	position: fixed;
+	top: 78px;
+	right: 10px;
+}
+
+.progress {
+	min-width: 64px;
+}
+
+.banner {
+	width: 9.5rem;
+	height: auto;
+}
+
+.rounded-3 {
+	border-radius: 1rem;
+}
