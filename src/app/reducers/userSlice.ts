@@ -1,4 +1,5 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
+import { Status } from 'app/types';
 import authService from '../services/authService';
 import userService from '../services/userService';
 import { RootState } from '../store';
@@ -34,8 +35,6 @@ export type Member = User & {
 	videogames: number;
 	waifus: number;
 };
-
-type Status = 'idle' | 'loading' | 'succeeded' | 'failed';
 
 export interface UserState {
 	user: User;

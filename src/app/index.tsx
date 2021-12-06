@@ -10,6 +10,7 @@ import { handleError } from 'utils';
 import { Counter } from 'features/counter/Counter';
 import Status from 'components/common/Status';
 import Header from 'components/header/Header';
+import Dashboard from 'components/dashboard/Dashboard';
 
 type OnRouteChangeWorkerProps = {
 	pathname: string;
@@ -43,6 +44,7 @@ const App = () => {
 			<Status />
 			<Router>
 				<Header path='/'>
+					<Dashboard exact path='/' />
 					<Counter exact path='/counter' />
 				</Header>
 			</Router>

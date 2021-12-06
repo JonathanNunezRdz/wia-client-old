@@ -1,44 +1,123 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+Refactor Main Repo of WIA
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+-   [ ] App.js
+-   [ ] index.js
+-   [ ] serviceWorker.js
+-   [ ] animeActions.js
+-   [ ] announcementActions.js
+-   [ ] mangaActions.js
+-   [ ] notificationActions.js
+-   [ ] tradeActions.js
+-   [ ] types.js
+-   [ ] userActions.js
+-   [ ] videogameActions.js
+-   [ ] waifuActions.js
+-   [ ] Main.js
+-   [ ] AnimeGrid.js
+-   [ ] Animes.js
+-   [ ] AnimeWaifus.js
+-   [ ] NewAnime.js
+-   [ ] AnimeActions.js
+-   [ ] index.js
+-   [ ] UpdateAnime.js
+-   [ ] UpdateAnimeWrapper.js
+-   [ ] WatchAnime.js
+-   [ ] AnnouncementList.js
+-   [ ] Announcements.js
+-   [ ] DashboardAnnouncements.js
+-   [ ] AnnouncementTitle.js
+-   [ ] NewAnnouncement.js
+-   [ ] NewAnnouncementWrapper.js
+-   [ ] NewDashboardAnnouncement.js
+-   [ ] Alert.js
+-   [ ] CardImage.js
+-   [ ] Collapsable.js
+-   [ ] CustomToggle.js
+-   [ ] Description.js
+-   [ ] Loading.js
+-   [ ] MediaInfo.js
+-   [ ] NotFound.js
+-   [ ] Progress.js
+-   [ ] Status.js
+-   [ ] Success.js
+-   [ ] UploadImage.js
+-   [ ] WatchedBy.js
+-   [ ] RoundUp.js
+-   [ ] Welcome.js
+-   [ ] HeaderItems.js
+-   [ ] ImageBubble.js
+-   [ ] Manga.js
+-   [ ] MangaGrid.js
+-   [ ] Mangas.js
+-   [ ] MangaWaifus.js
+-   [ ] NewManga.js
+-   [ ] UpdateManga.js
+-   [ ] Member.js
+-   [ ] MemberGrid.js
+-   [ ] Members.js
+-   [ ] MotionCard.js
+-   [ ] Notification.js
+-   [ ] NotificationList.js
+-   [ ] Notifications.js
+-   [ ] Account.js
+-   [ ] Profile.js
+-   [ ] DoneTrade.js
+-   [ ] PendingTradeList.js
+-   [ ] PendingTrades.js
+-   [ ] TradeHistory.js
+-   [ ] TradeHistoryList.js
+-   [ ] Trades.js
+-   [ ] ChooseMediaElement.js
+-   [ ] ChooseMediaType.js
+-   [ ] ChooseWaifus.js
+-   [ ] ChosenWaifus.js
+-   [ ] NewTrade.js
+-   [ ] PendingTrade.js
+-   [ ] TradeButtons.js
+-   [ ] TradeGreeting.js
+-   [ ] TradeOffer.js
+-   [ ] TradeTime.js
+-   [ ] NewVideogame.js
+-   [ ] UpdateVideogame.js
+-   [ ] Videogame.js
+-   [ ] VideogameGrid.js
+-   [ ] Videogames.js
+-   [ ] VideogameWaifus.js
+-   [ ] Content.js
+-   [ ] Dashboard.js
+-   [x] Header.js
+-   [ ] Login.js
+-   [ ] NotFound.js
+-   [ ] NewWaifu.js
+-   [ ] UpdateWaifu.js
+-   [ ] Waifu.js
+-   [ ] WaifuButtons.js
+-   [ ] WaifuGrid.js
+-   [ ] WaifuInfo.js
+-   [ ] Waifus.js
+-   [ ] fbConfig.js
+-   [ ] animeReducer.js
+-   [ ] announcementReducer.js
+-   [ ] announcementSlice.js
+-   [ ] commonReducer.js
+-   [ ] commonSlice.js
+-   [ ] index.js
+-   [ ] mangaReducer.js
+-   [ ] notificationReducer.js
+-   [ ] tradeReducer.js
+-   [ ] userReducer.js
+-   [ ] userSlice.js
+-   [ ] videogameReducer.js
+-   [ ] waifuReducer.js
+-   [ ] animeService.js
+-   [ ] announcementService.js
+-   [ ] api.js
+-   [ ] authService.js
+-   [ ] mangaService.js
+-   [ ] notificationService.js
+-   [ ] tradeService.js
+-   [ ] userService.js
+-   [ ] videogameService.js
+-   [ ] waifuService.js
+-   [ ] index.js
+-   [ ] motionVariants.js
